@@ -1,0 +1,130 @@
+
+.screen-bg img{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.screen-bg .bg-top{
+    position: fixed;
+    right:50%;
+    bottom: 30%;
+}
+.screen-bg .bg-bottom{
+    position: fixed;
+    left:40%;
+    top:40%;    
+}
+
+body{
+    background-color: hsl(185, 75%, 39%);
+}
+
+main{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display:block;
+    background-color: white;
+    /* border: 10px solid black; */
+    border-radius: 20px;
+    padding: 0;
+    margin: auto;
+    width: 290px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* For the top part of the card --> i.e for Names, age and London */
+
+.top-part{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Monoton', cursive;
+    font-family: 'Outfit', sans-serif;
+}
+
+.info .nameage {
+    margin: 5px 0px 0px 0px;
+    padding: 2px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.info .nameage p{
+    margin: 5px;
+    padding: 0px;
+}
+
+.info .nameage span{
+    font-weight: 400;
+    color: grey;
+}
+
+.info #london{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: grey;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.backgroundImg img{
+    margin: 0;
+    padding: 0;
+    width: 290px;
+    /* position: relative;
+    z-index: -1; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: auto;
+}
+
+.profile-pic{
+    height: 70px;
+}
+
+.profile-pic img{
+    position: relative;
+    bottom: 50px;
+    right: 1px;
+    border-radius: 50%;
+    border: 5px solid white;
+    
+}
+
+/* For the bottom part of the card --> i.e for Followers, likes and photos */
+
+
+.stats{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    gap: auto;
+    padding: 10px 5px 13px 5px;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Monoton', cursive;
+    font-family: 'Outfit', sans-serif;  
+}
+.stats .elements p{
+    margin: 0px;
+    color: grey;
+    
+}
+.stats .elements span{
+    color: black;
+    font-family: 'kumbh sans';
+    font-size: 1.1rem;
+    font-weight: 700;
+}
